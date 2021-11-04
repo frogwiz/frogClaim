@@ -17,7 +17,7 @@ function App() {
   const [shouldReload, reload] = useState(false)
 
   let canConnectToContract
-  if (account && web3Api.contract && web3Api.provider.chainId == 0xfa) {
+  if (account && web3Api.contract && web3Api.provider.chainId === "0xfa") {
     canConnectToContract = true
   }
   const reloadEffect = useCallback(
