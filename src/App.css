@@ -1,0 +1,11 @@
+.claim-wrapper {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  margin: 0 auto;
+}
